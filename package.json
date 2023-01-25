@@ -1,0 +1,24 @@
+{
+  "name": "portafolio-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+
+  "scripts": {
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Torofms37/my-repo.git"
+  },
+  "keywords": [],
+  "author": "torofms37",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Torofms37/my-repo/issues"
+  },
+  "homepage": "https://github.com/Torofms37/my-repo#readme",
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
