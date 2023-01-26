@@ -339,10 +339,29 @@ width: min(55% - 0px, 1440px);
 /* Ventana modal pop-up*/
 
 .modal {
+    /* width: 50vw; */
     box-shadow: 0 22px 70px 4px rgba(0, 0, 0, 0.56);  
     text-align: center;
     background-color: var(--gray-b);
     border-radius: 20px;
+}
+.modal__proy {
+    width: 60vw;
+    height: 70vh;
+    box-shadow: 0 22px 70px 4px rgba(0, 0, 0, 0.56);  
+    text-align: center;
+    background-color: var(--gray-b);
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Things inside modal */
+
+.media-icons {
+    margin: 0;
 }
 
 .modal h2, form {
@@ -369,6 +388,13 @@ width: min(55% - 0px, 1440px);
     border-left: 0;
     border-right: 0;
 }
+
+.image img {
+    width: 60%;
+    border-radius: 30px;
+}
+
+
 
 textarea {
     margin: 5px 0 10px 0;
@@ -412,6 +438,9 @@ footer {
     }
     .content__imp {
         margin-top: 20px;
+    }
+    .content__imp p {
+        font-size: 28px;
     }
 }
 
