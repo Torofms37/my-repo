@@ -28,10 +28,13 @@
 									</a>
 							</label>
 							<ul class="navlinks">
-									<li><a id="open">Proyectos</a>
-										<dialog id="modal" class="modal__proy">
-											<div id="carousel">
+								<li><a id="open">Proyectos</a>
+									<dialog id="modal" class="modal__proy">
+										<div>
 												<svg id="close" class="modal__close-btn" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m13.7 19.55 5.88-5.89 3.35 3.36a3.57 3.57 0 0 1 0 5.05l-.83.83a3.57 3.57 0 0 1-5.05 0zM22.92 1.9l-.83-.83a3.57 3.57 0 0 0-5.05 0L12 6.12 6.95 1.07a3.57 3.57 0 0 0-5.05 0l-.83.83a3.57 3.57 0 0 0 0 5.05L6.12 12l-5.05 5.05a3.57 3.57 0 0 0 0 5.05l.83.83a3.57 3.57 0 0 0 5.05 0L12 17.88l3.68-3.68 2.2-2.2 5.05-5.05a3.57 3.57 0 0 0 0-5.05z" fill="#fafafa" class="fill-000000"></path></svg>
+											</div>
+										<div id="carousel">
+											<svg id="prev-btn" class="button-carousel" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><g data-name="Layer 2"><path d="M31 16A15 15 0 1 1 16 1a15 15 0 0 1 15 15ZM3 16A13 13 0 1 0 16 3 13 13 0 0 0 3 16Z" fill="#e6e6e6" class="fill-000000"></path><path d="M19.87 10.41 14.29 16l5.58 5.59a1 1 0 0 1 0 1.41 1 1 0 0 1-1.41 0l-6.36-6.36a.91.91 0 0 1 0-1.28L18.46 9a1 1 0 0 1 1.41 0 1 1 0 0 1 0 1.41Z" fill="#e6e6e6" class="fill-000000"></path></g></svg>
 												<div class="slide">
 													<img src="./img/img-1.JPG" alt="">
 												</div>
@@ -50,10 +53,8 @@
 												<div class="slide">
 													<img src="./img/img-7.JPG" alt="">
 												</div>
+												<svg id="next-btn" class="button-carousel" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><g data-name="Layer 2"><path d="M1 16a15 15 0 1 1 15 15A15 15 0 0 1 1 16Zm28 0a13 13 0 1 0-13 13 13 13 0 0 0 13-13Z" fill="#fafafa" class="fill-000000"></path><path d="M12.13 21.59 17.71 16l-5.58-5.59a1 1 0 0 1 0-1.41 1 1 0 0 1 1.41 0l6.36 6.36a.91.91 0 0 1 0 1.28L13.54 23a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41Z" fill="#fafafa" class="fill-000000"></path></g></svg>
 											</div>
-								
-											<button id="prev-btn">Anterior</button>
-											<button id="next-btn">Siguiente</button>
 										</dialog>
 									</li>
 									<li><a href="#">Acerca de mí</a></li>
@@ -70,9 +71,9 @@
 													<input type="email" name="email" id="email"><br>
 							
 													<label for="context">Escribe tu mensaje:</label><br>
-													<textarea name="textarea" id="textarea" cols="30" rows="10"></textarea><br>
+													<textarea name="textarea" id="textarea"></textarea><br>
 							
-													<input id="submit__e" class="submit" type="submit" value="Enviar"><br>
+													<input id="submit__e" class="submit" type="submit" value="Enviar">
 											</form>
 										</dialog>
 									</li>
