@@ -9,7 +9,7 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 2000); // Cambia de slide cada 2 segundos
+  setTimeout(showSlides, 20000); // Cambia de slide cada 2 segundos
 }
 
 // Mostrar la primera slide
