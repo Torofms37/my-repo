@@ -344,7 +344,18 @@ width: min(55% - 0px, 1440px);
     text-align: center;
     background-color: var(--gray-b);
     border-radius: 20px;
+    height: 69%;
 }
+
+.modal__close-btn {
+    display: block;
+    width: 8%;    
+}
+
+.modal__close-btn:hover {
+    cursor: pointer;
+}
+
 .modal__proy {
     width: 60vw;
     height: 70vh;
@@ -470,8 +481,7 @@ footer {
 
 /* JS carousel */
 .slide img {
-    max-width: 70%;
+    max-width: 80%;
     border-radius: 30px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-
