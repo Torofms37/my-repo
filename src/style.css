@@ -357,8 +357,8 @@ width: min(55% - 0px, 1440px);
 }
 
 .modal__proy {
-    width: 60vw;
-    height: 70vh;
+    width: 50vw;
+    height: 45vh;
     box-shadow: 0 22px 70px 4px rgba(0, 0, 0, 0.56);  
     text-align: center;
     background-color: var(--gray-b);
@@ -387,7 +387,7 @@ width: min(55% - 0px, 1440px);
 }
 
 .modal label, input  {
-    margin-bottom: 20px;
+    margin: 0;
     font-size: 20px;
 }
 
@@ -484,4 +484,12 @@ footer {
     max-width: 80%;
     border-radius: 30px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.button-carousel {
+    width: 15%;
+}
+
+#carousel {
+    display: flex;
 }
