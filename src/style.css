@@ -348,7 +348,7 @@ width: 35%;
 
 .modal__close-btn {
     display: block;
-    width: 8%;    
+    width: 10%;    
 }
 
 .modal__close-btn:hover {
@@ -357,7 +357,6 @@ width: 35%;
 
 .modal__proy {
     width: 50%;
-    height: 50%;
     box-shadow: 0 22px 70px 4px rgba(0, 0, 0, 0.56);  
     text-align: center;
     background-color: var(--gray-b);
@@ -483,7 +482,7 @@ footer {
 /* JS carousel */
 .slide img {
     width: 60%;
-    border-radius: 30px;
+    border-radius: 5%;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
@@ -492,7 +491,7 @@ footer {
 }
 
 .button-carousel {
-    width: 35px;
+    width: 8%;
 }
 
 .x {
