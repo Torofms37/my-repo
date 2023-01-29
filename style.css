@@ -358,7 +358,7 @@ width: min(55% - 0px, 1440px);
 
 .modal__proy {
     width: 50vw;
-    height: 45vh;
+    height: 30vh;
     box-shadow: 0 22px 70px 4px rgba(0, 0, 0, 0.56);  
     text-align: center;
     background-color: var(--gray-b);
@@ -486,18 +486,23 @@ footer {
         padding-left: 30px;
     }
 }
+}
 
 /* JS carousel */
 .slide img {
-    max-width: 80%;
+    max-width: 75%;
     border-radius: 30px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.button-carousel {
-    width: 15%;
+.carousel {
+    display: inline-flex;
 }
 
-#carousel {
+.button-carousel {
+    width: 35%;
+}
+
+.arrows {
     display: flex;
 }
