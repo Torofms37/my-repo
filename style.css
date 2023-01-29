@@ -428,19 +428,19 @@ footer {
         width: 40%;
     }
     .content__imp p {
-        font-size: 45px;
+        font-size: 40px;
     }
     .p-hola {
-        font-size: 60px;
+        font-size: 45px;
     }
 
 @media (min-width: 800px) {
     .logo {
         margin: 20px;
-        font-size: 40;
+        font-size: 40px;
     }
     .p-hola {
-        font-size: 54px;
+        font-size: 45px;
     }
 }
 
