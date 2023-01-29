@@ -23,7 +23,6 @@ body {
 
 .content__navbar {
     display: flex;
-    height: 60px;
     justify-content: space-between;
 }
 
@@ -462,13 +461,11 @@ footer {
 
 @media (min-width: 1440px) {
     .perfil__container {
-        margin: 40px auto;
+        margin: 20px auto;
     }
     .content__imp {
-        width: 1000px;
-        display: flex;
+        width: 900px;
         flex-direction: row;
-        justify-content: center;
     }
 
     .content__imp p {
