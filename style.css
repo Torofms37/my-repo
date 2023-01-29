@@ -356,8 +356,8 @@ width: 35%;
 }
 
 .modal__proy {
-    width: 50vw;
-    height: 30vh;
+    width: 50%;
+    height: 50%;
     box-shadow: 0 22px 70px 4px rgba(0, 0, 0, 0.56);  
     text-align: center;
     background-color: var(--gray-b);
@@ -482,7 +482,7 @@ footer {
 
 /* JS carousel */
 .slide img {
-    max-width: 75%;
+    width: 60%;
     border-radius: 30px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
@@ -492,9 +492,10 @@ footer {
 }
 
 .button-carousel {
-    width: 35%;
+    width: 35px;
 }
 
-.arrows {
-    display: flex;
+.x {
+    position: fixed;
 }
+
