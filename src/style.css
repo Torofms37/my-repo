@@ -23,7 +23,7 @@ body {
 
 .content__navbar {
     display: flex;
-    height: 80px;
+    height: 60px;
     justify-content: space-between;
 }
 
@@ -40,7 +40,7 @@ body {
 .navlinks {
     list-style: none;
     float: right;
-    line-height: 90px;
+    line-height: 60px;
     margin: 0;
     padding: 0;
 }
@@ -239,7 +239,7 @@ li a.contact:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: min(100% - 0px, 1440px);
+    width: 90%;
 }
 
 .content__imp p {
@@ -270,7 +270,7 @@ li a.contact:hover {
 }
 
 .content__imp img {
-width: 45%;
+width: 35%;
 }
 
 /* Redes sociales*/
@@ -436,7 +436,7 @@ footer {
 
 @media (min-width: 800px) {
     .logo {
-        margin: 20px;
+        margin: 5px;
         font-size: 40px;
     }
     .p-hola {
@@ -446,7 +446,7 @@ footer {
 
 @media (min-width: 1024px) {
     .content__imp img {
-        width: 30%;
+        width: 25%;
     }
     .content__navbar a {
         font-size: 30px;
@@ -454,9 +454,6 @@ footer {
     }
     .content__social--media {
         margin: 0;
-    }
-    .content__imp {
-        margin-top: 20px;
     }
     .content__imp p {
         font-size: 25px;
@@ -480,10 +477,7 @@ footer {
     }
 
     .content__imp img {
-        width: 50%;
-    }
-    .content__imp {
-        padding-left: 30px;
+        width: 45%;
     }
 }
 }
