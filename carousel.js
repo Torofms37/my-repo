@@ -19,7 +19,7 @@ showSlides();
 var prevBtn = document.getElementById("prev-btn");
 var nextBtn = document.getElementById("next-btn");
 prevBtn.addEventListener("click", function() {
-  slideIndex = slideIndex - 2;
+  slideIndex = slideIndex - 0;
   showSlides();
 });
 nextBtn.addEventListener("click", function() {
