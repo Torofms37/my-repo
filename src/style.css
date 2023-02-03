@@ -128,20 +128,6 @@ li a.contact:hover {
     }
 }
 
-@media (max-width: 360px) {
-    .logo {
-    margin-left: 10px;
-    font-size: 25px;
-    }
-
-    .menu-btn {
-    font-size: 25px;
-    }
-
-    .menu-btn:focus {
-    color: blue;
-    }
-}
 
 /* navbar E to X */
 
@@ -177,12 +163,12 @@ li a.contact:hover {
 }
 
 .menu__icon span:nth-child(2) {
-        background-color: var(--blue-of);
+    background-color: var(--blue-of);
     top: 9px;
 }
 
 .menu__icon span:nth-child(3) {
-        background-color: var(--blue-of);
+    background-color: var(--blue-of);
     top: 18px;
 }
 
@@ -273,7 +259,7 @@ li a.contact:hover {
 }
 
 .content__imp img {
-width: 290px;
+    width: 90vw;
 }
 
 /* Redes sociales*/
@@ -405,7 +391,32 @@ width: 290px;
     border-radius: 30px;
 }
 
+/* JS carousel */
+.slide img {
+    width: 60%;
+    border-radius: 5%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
 
+.slide p {
+    color: var(--white);
+    font-size: 25px;
+    line-height:1.5;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-carousel {
+    width: 100px;
+}
+
+.x {
+    position: fixed;
+}
 
 textarea {
     margin: 5px 0 10px 0;
@@ -423,9 +434,29 @@ footer {
     margin: 0 auto;
 }
 
+/* Media to Responsive */
+
+@media (max-width: 360px) {
+    .logo {
+    margin-left: 10px;
+    font-size: 25px;
+    }
+
+    .menu-btn {
+    font-size: 25px;
+    }
+
+    .menu-btn:focus {
+    color: blue;
+    }
+    .slide p {
+        font-size: 20px;
+    }
+}
+
 @media (min-width: 768px) {
     .content__imp img {
-        width: 500px;
+        width: 700px;
     }
     
     .content__imp p {
@@ -447,7 +478,7 @@ footer {
 
 @media (min-width: 1024px) {
     .content__imp img {
-        width: 25%;
+        width: 700px;
     }
     .content__navbar a {
         font-size: 30px;
@@ -480,25 +511,3 @@ footer {
     }
 }
 }
-
-/* JS carousel */
-.slide img {
-    width: 60%;
-    border-radius: 5%;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-
-.carousel {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.button-carousel {
-    width: 8%;
-}
-
-.x {
-    position: fixed;
-}
-
